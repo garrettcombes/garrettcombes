@@ -59,7 +59,11 @@
 		z-index: 1000;
 	}
 
-	.index a, .design a, .about a {
+	.index a {
+		padding: 0.1em 0.1em;
+	}
+
+	.design a, .about a {
 		color: var(--bg-color);
 		padding: 0.1em 0.1em;
 	}
@@ -72,6 +76,7 @@
 
 	.index {
 		position: fixed;
+		border-top: var(--border);
 		bottom: 0;
 		left: 0;
 		background-color: var(--bg-color);

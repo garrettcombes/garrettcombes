@@ -111,7 +111,7 @@
 							allowfullscreen
 							title="hilton combes vimeo"
 							style="position:absolute;top:0;left:0;width:100%;height:100%;"
-						/>
+						></iframe>
 					</div>
 					{#if active}
 						<a
@@ -149,7 +149,7 @@
 									allowfullscreen
 									title="hilton combes vimeo"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;"
-								/>
+								></iframe>
 							</div>
 						{:else if project.imgTwo}
 							<img
@@ -189,7 +189,7 @@
 					<p class="info__title font--NeueMontrealMedium">{project.brand}</p>
 				</div>
 			</div>
-			<div class="grid-col-d" />
+			<div class="grid-col-d"></div>
 		</div>
 	{/each}
 </section>
