@@ -1,5 +1,5 @@
 <script>
-	import Hoverable from '../lib/Hover.svelte';
+	import Hoverable from '../lib/hover.svelte'
 	import { fly } from 'svelte/transition';
 	import { quintInOut } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
