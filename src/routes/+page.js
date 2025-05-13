@@ -26,7 +26,8 @@ export const load = async () => {
 				imgTwo: '/images/hp_02.webp',
 				imgThree: '/images/hp_03.webp',
 				imgFour: '/images/hp_04.webp',
-				alt: 'hp wake up'
+				alt: 'hp wake up',
+				subline: '2020 The One Show Silver'
 			},
 			{
 				brand: 'Expedia',
@@ -49,6 +50,18 @@ export const load = async () => {
 				imgFour: '/images/expedia_03.webp',
 				thumbnail: '926653213?h=575add8d6b',
 				alt: 'expedia where to'
+			},
+			{
+				brand: 'WhatsApp',
+				title: 'Layla',
+				vimeo: 'https://vimeo.com/user5598817/whatsapp',
+				video: '1083959025?',
+				imgOne: '/images/whatsApp_01.webp',
+				imgTwo: '/images/whatsApp_02.webp',
+				imgThree: '/images/whatsApp_03.webp',
+				imgFour: '/images/whatsApp_04.webp',
+				alt: 'whatsapp hapiness and love',
+				subline: '2025 Webby win'
 			},
 			{
 				brand: 'Lime',
