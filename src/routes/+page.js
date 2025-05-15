@@ -15,7 +15,7 @@ export const load = async () => {
 				imgFour: '/images/adobe_04.webp',
 				thumbnail: '776819569?h=d2da82dc64',
 				alt: 'adobe full bleed',
-				subline: '2023 Tribeca X win'
+				subline: '2025 Clio Silver • 2023 Tribeca X win'
 			},
 			{
 				brand: 'Hewlett Packard',
