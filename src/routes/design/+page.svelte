@@ -12,7 +12,7 @@
 		{ src: '/overview/grad_together.webp' },
 		{ video: '780617281?h=f7c6b6a581' },
 		{ src: '/overview/hp_wolf_02.webp' },
-		{ src: '/overview/cherry.webp' },
+		{ video: '1085326739?' },
 		{ src: '/overview/lab_branding_02.webp' },
 		{ src: '/overview/lab_branding_03.webp' },
 		{ src: '/overview/lab_site_01.webp' },
@@ -21,7 +21,11 @@
 		{ src: '/overview/studio_03.webp' },
 		{ src: '/overview/studio_01.webp' },
 		{ video: '794974670?h=11eb6cfcc8' },
-		{ src: '/overview/wakeup_titles_01.webp' }
+		{ src: '/overview/wakeup_titles_01.webp' },
+		{ src: '/overview/rachelSaunders.webp' },
+		{ video: '1085326903?' },
+		{ src: '/overview/theEndPoster.webp' },
+		{ src: '/overview/sanditas.webp' }
 	];
 </script>
 
@@ -35,15 +39,31 @@
 		<div class="overview__grid">
 			{#each images as { src, video }}
 				{#if src}
-					<img transition:fade="{{delay: 50}}" class="overview__grid--image" loading="lazy" {src} alt="overview">
+					<img
+						transition:fade={{ delay: 50 }}
+						class="overview__grid--image"
+						loading="lazy"
+						{src}
+						alt="overview"
+					/>
 				{:else}
-					<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{video}&autoplay=1&loop=1&autopause=0&background=1&color=ffffff&controls=0&portrait=0" width="500" height= "250"  frameborder="0" allow="autoplay; fullscreen"  allowfullscreen title="garrett combes vimeo" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+					<div style="padding:56.25% 0 0 0;position:relative;">
+						<iframe
+							src="https://player.vimeo.com/video/{video}&autoplay=1&loop=1&autopause=0&background=1&color=ffffff&controls=0&portrait=0"
+							width="500"
+							height="250"
+							frameborder="0"
+							allow="autoplay; fullscreen"
+							allowfullscreen
+							title="garrett combes vimeo"
+							style="position:absolute;top:0;left:0;width:100%;height:100%;"
+						></iframe>
+					</div>
 				{/if}
 			{/each}
 		</div>
 	</div>
 </section>
-
 
 <style>
 	.overview-container {
@@ -54,20 +74,20 @@
 
 	.overview__grid {
 		display: grid;
-		grid-template-columns: repeat(2,1fr);
+		grid-template-columns: repeat(2, 1fr);
 		align-items: flex-start;
 		gap: 2rem;
-		padding: 1.5em .5em 5em;
+		padding: 1.5em 0.5em 5em;
 	}
 
 	.overview__grid--image {
 		transform: scale(100%);
-		transition: transform .25s ease-out;
+		transition: transform 0.25s ease-out;
 	}
 
 	.overview__grid--image:hover {
 		transform: scale(110%);
-		cursor:crosshair;
+		cursor: crosshair;
 	}
 
 	@media screen and (min-width: 750px) {
@@ -76,7 +96,7 @@
 		}
 
 		.overview__grid {
-			grid-template-columns: repeat(4,1fr);
+			grid-template-columns: repeat(4, 1fr);
 		}
 	}
 </style>
