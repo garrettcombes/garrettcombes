@@ -1,16 +1,18 @@
 <script>
 	import copy from '$lib/images/copy.svg';
-  const currentYear = new Date().getFullYear();
+	const currentYear = new Date().getFullYear();
 </script>
 
 <footer id="footer" class="grid--2col">
 	<div class="contact-container">
 		<div class="contact">
 			<div class="contact__title font--editorial">Contact</div>
-			<div class="contact__email font--NeueMontrealMedium space--wider">garrettcombes@gmail.com</div>
-			<div class="contact__address font--NeueMontrealBook">6424 W Olympic Blvd</div>
-			<div class="contact__address font--NeueMontrealBook">Los Angeles, CA</div>
-			<div class="contact__address font--NeueMontrealBook">90048</div>
+			<div class="contact__email font--NeueMontrealMedium space--wider">
+				garrettcombes@gmail.com
+			</div>
+			<div class="contact__address font--NeueMontrealBook">36°50'41.5"N 118°17'51.6"W</div>
+			<div class="contact__address font--NeueMontrealBook">Los Angeles</div>
+			<div class="contact__address font--NeueMontrealBook">California</div>
 			<div class="contact__links font--NeueMontrealBook">
 				<a
 					href="https://www.instagram.com/garrett.combes/"
@@ -29,11 +31,10 @@
 
 	<div class="about-container">
 		<div class="about__content font--NeueMontrealBook">
-			Garrett Combes is an Emmy-winning Creative Director based in Los Angeles. After
-			working as an art director at some of the world’s top advertising agencies,
-			he shifted his focus towards the entertainment industry, working as a Creative Director
-			inside The Lab at Anonymous Content. Currently, he sits in-house at Expedia focusing on
-			story-driven and longform content.
+			Garrett Combes is an Emmy-winning Creative Director based in Los Angeles. After working as an
+			art director at some of the world’s top advertising agencies, he shifted his focus towards the
+			entertainment industry, working as a Creative Director inside The Lab at Anonymous Content.
+			Currently, he sits in-house at Expedia focusing on story-driven and longform content.
 			<br /><br />
 			Additional work upon request
 		</div>
