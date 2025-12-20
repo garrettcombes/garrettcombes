@@ -46,6 +46,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		min-height: 100svh;
 		padding: 1em 0 0;
 	}
 

@@ -17,11 +17,10 @@
 		class="about-mobile"
 	>
 		<div class="about-mobile__content font--NeueMontrealBook">
-			Garrett Combes is an Emmy-winning Creative Director based in Los Angeles. After
-			working as an art director at some of the world’s top advertising agencies,
-			he shifted his focus towards the entertainment industry, working as a Creative Director
-			inside The Lab at Anonymous Content. Currently, he sits in-house at Expedia focusing on
-			story-driven and longform content.
+			Garrett Combes is an Emmy-winning Creative Director based in Los Angeles. After working as an
+			art director at some of the world’s top advertising agencies, he shifted his focus towards the
+			entertainment industry, working as a Creative Director inside The Lab at Anonymous Content.
+			Currently, he sits in-house at Expedia focusing on story-driven and longform content.
 		</div>
 	</div>
 {/if}
@@ -49,6 +48,7 @@
 
 	.about-mobile {
 		height: 100vh;
+		height: 100svh;
 		position: fixed;
 		inset: 0 0 0 0;
 		background: var(--bg-color);

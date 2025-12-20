@@ -1,6 +1,6 @@
 <script>
 	export let data;
-	import Hoverable from '../lib/hover.svelte'
+	import Hoverable from '../lib/hover.svelte';
 	import { fly } from 'svelte/transition';
 	import { quintInOut } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
@@ -24,6 +24,7 @@
 	<meta property="og:title" content="Garrett Combes" />
 	<meta property="og:image" content="/&.png" />
 	<meta property="og:image:type" content="image/png" />
+	<meta name="format-detection" content="telephone=no, address=no, email=no" />
 </svelte:head>
 
 <section>
@@ -40,7 +41,7 @@
 								frameborder="0"
 								allow="autoplay; fullscreen"
 								allowfullscreen
-								title="hilton combes vimeo"
+								title="combes vimeo"
 								style="position:absolute;top:0;left:0;width:100%;height:100%;"
 							></iframe>
 						</div>
