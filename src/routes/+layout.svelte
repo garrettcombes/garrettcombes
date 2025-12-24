@@ -8,7 +8,7 @@
 <div
 	aria-current={$page.url.pathname === '/design' ? 'page' : undefined}
 	class="design font--editorialItalic"
-	>
+>
 	<a href="/design">Design</a>
 </div>
 
@@ -18,28 +18,23 @@
 	<main>
 		<slot />
 	</main>
-
-
 </div>
 
 <div
-		aria-current={$page.url.pathname === '/' ? 'page' : undefined}
-		class="index font--editorialItalic">
-		<a href="/">Home</a>
+	aria-current={$page.url.pathname === '/' ? 'page' : undefined}
+	class="index font--editorialItalic"
+>
+	<a href="/">Home</a>
 </div>
 
+<div
+	aria-current={$page.url.pathname === '/' ? 'page' : undefined}
+	class="about font--editorialItalic"
+>
+	<a href="/#footer">About</a>
+</div>
 
-<div aria-current={$page.url.pathname === '/' ? 'page' : undefined}
-		class="about font--editorialItalic">
-		<a href="/#footer">About</a>
-</div> 
-
-
-
-
-
-
-	<About />
+<About />
 
 <style>
 	.app {
@@ -64,15 +59,18 @@
 		padding: 0.1em 0.1em;
 	}
 
-	.design a, .about a {
+	.design a,
+	.about a {
 		color: var(--bg-color);
 		padding: 0.1em 0.1em;
 	}
 
-	.index a:hover, .design a:hover, .about a:hover {
-		background: rgba(161, 161, 161, .08);
-    border-radius: var(--border-radius);
-    padding: 0.1em 0.1em;
+	.index a:hover,
+	.design a:hover,
+	.about a:hover {
+		background: rgba(161, 161, 161, 0.08);
+		border-radius: var(--border-radius);
+		padding: 0.1em 0.1em;
 	}
 
 	.index {
