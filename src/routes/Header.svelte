@@ -16,7 +16,7 @@
 	</section>
 
 	{#if $page.url.pathname === '/'}
-		<div id="scroll-indicator" />
+		<div id="scroll-indicator"></div>
 	{/if}
 </header>
 
