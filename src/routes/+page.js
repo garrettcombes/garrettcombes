@@ -18,6 +18,17 @@ export const load = async () => {
 				subline: '2025 Clio Silver • 2023 Tribeca X win'
 			},
 			{
+				brand: 'Expedia x Affirm',
+				title: 'Trip Yips',
+				vimeo: 'https://vimeo.com/1184970187',
+				video: '1188314421?h=',
+				imgOne: '/images/expedia3_02.webp',
+				imgTwo: '/images/expedia3_01.webp',
+				imgThree: '/images/expedia3_03.webp',
+				imgFour: '/images/expedia3_04.webp',
+				alt: 'expedia trip yips'
+			},
+			{
 				brand: 'Hewlett Packard',
 				title: 'Wake Up',
 				vimeo: 'https://vimeo.com/user5598817/wakeup',
